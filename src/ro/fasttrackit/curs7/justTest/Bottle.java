@@ -2,16 +2,15 @@ package ro.fasttrackit.curs7.justTest;
 
 import java.util.Objects;
 
-//Ceva
-public class Bottle {
+ public class Bottle {
     private int totalLiquid;
     int capacity = 100;
     private int incLiquid;
     private int decLiquid;
     private boolean open;
 
-    public Bottle(int incLiquid, int niciAsta, boolean open) {
-        this.incLiquid = incLiquid;
+    public Bottle(int nuArTrebuiSaFieAici, int niciAsta, boolean open) {
+        this.incLiquid = nuArTrebuiSaFieAici;
         this.decLiquid = niciAsta;
         this.open = open;
     }
