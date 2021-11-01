@@ -2,6 +2,7 @@ package ro.fasttrackit.curs7.justTest;
 
 import java.util.Objects;
 
+//Ceva
 public class Bottle {
     private int totalLiquid;
     int capacity = 100;
