@@ -10,9 +10,9 @@ public class Bottle {
     private int decLiquid;
     private boolean open;
 
-    public Bottle(int incLiquid, int decLiquid, boolean open) {
+    public Bottle(int incLiquid, int niciAsta, boolean open) {
         this.incLiquid = incLiquid;
-        this.decLiquid = decLiquid;
+        this.decLiquid = niciAsta;
         this.open = open;
     }
 
